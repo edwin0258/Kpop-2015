@@ -1,0 +1,65 @@
+body{
+    background-image: url('http://i.imgur.com/IoHdgMA.jpg');
+}
+
+.nav{
+   background:black;
+   border-style:solid; 
+   border-width: 2px;
+   border-color: black;
+   font-family: 'Lobster', cursive;
+}
+body .nav .btn-primary {
+    padding: 15px, 5px;
+    
+}
+.nav .btn, .btn{
+    padding: 25;
+    margin: 20px;
+    background:gray;
+    background-image:linear-gradient(to bottom,#222);
+    border:solid 2px #333;
+    
+}
+.header{
+    font-family: 'Lobster', cursive;
+    
+}
+body .btn-default{
+    width:60px;
+}
+.btn-back, .btn-next{
+}
+.col-lg-6{
+    display: none;
+   
+ }
+ .jumbotron{
+    background-image: url('https://s-media-cache-ak0.pinimg.com/736x/b9/21/be/b921bee30a7761d1ca7967813d0c14ce.jpg');
+    
+    border: solid 1px;
+} 
+.row .text-center{
+    color:#d3d3d3;
+    border:solid #222;
+    background:black;
+    padding:20px;
+    font-family: 'Lobster', cursive;
+    font-size:20px;
+}
+.row .text-center:hover{
+    color:#162252;
+    cursor:pointer;
+}
+body .btn-next:hover{
+    color: black;
+    margin-top:50;
+}
+body .btn-back:hover{
+    color: black;
+}
+.page-footer{
+    color:#e6e6e6;
+    background:black;
+    font-family: 'Droid Sans', sans-serif;
+}
