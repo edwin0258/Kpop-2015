@@ -1,7 +1,6 @@
 body{
     background-image: url('http://i.imgur.com/IoHdgMA.jpg');
 }
-
 .nav{
    background:black;
    border-style:solid; 
@@ -21,7 +20,7 @@ body .nav .btn-primary {
     border:solid 2px #333;
     
 }
-.header{
+.header, .j-header{
     font-family: 'Lobster', cursive;
     
 }
@@ -34,12 +33,18 @@ body .btn-default{
     display: none;
    
  }
- .jumbotron{
+.col-lg-1{
+    vertical-align: middle;
+}
+#pg.col-lg-1{
+    
+}
+.jumbotron{
     background-image: url('https://s-media-cache-ak0.pinimg.com/736x/b9/21/be/b921bee30a7761d1ca7967813d0c14ce.jpg');
     
     border: solid 1px;
 } 
-.row .text-center{
+.row .text-center, .j-header{
     color:#d3d3d3;
     border:solid #222;
     background:black;
@@ -56,6 +61,9 @@ body .btn-next:hover{
     margin-top:50;
 }
 body .btn-back:hover{
+    color: black;
+}
+body .btn-stop:hover{
     color: black;
 }
 .page-footer{
